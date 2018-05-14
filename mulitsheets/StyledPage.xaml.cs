@@ -16,9 +16,10 @@ namespace mulitsheets
             InitializeComponent();
 
             var filename = $"mulitsheets.Assets.sheet{id}.css";
+            var img = id == "1" ? "zx81" : id == "2" ? "spectrum" : "ql";
 
             Resources.Add(StyleSheet.FromAssemblyResource(IntrospectionExtensions.GetTypeInfo(typeof(StyledPage)).Assembly, filename));
-
+            imgPic.Source = img;
         }
     }
 }
