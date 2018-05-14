@@ -1,3 +1,10 @@
 ﻿^contentpage {
 	background-color: green;
 }
+
+.mainHeading {
+	font-size: 24;
+	font-style: bold;
+	color: Yellow;
+	text-align: center;
+}

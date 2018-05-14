@@ -94,6 +94,9 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
+    <AndroidResource Include="Resources\drawable\ql.png" />
+    <AndroidResource Include="Resources\drawable\spectrum.png" />
+    <AndroidResource Include="Resources\drawable\zx81.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

@@ -155,4 +155,9 @@
       <Name>mulitsheets</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ql.png" />
+    <BundleResource Include="Resources\spectrum.png" />
+    <BundleResource Include="Resources\zx81.png" />
+  </ItemGroup>
 </Project>

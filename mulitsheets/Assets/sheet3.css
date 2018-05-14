@@ -1,3 +1,9 @@
 ﻿^contentpage {
 	background-color: red;
 }
+
+.mainHeading {
+	font-size: 23;
+	color: white;
+	text-align: right;
+}
