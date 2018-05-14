@@ -6,15 +6,19 @@ namespace mulitsheets
 {
     public partial class StyledPage : ContentPage
     {
+        public StyledPage()
+        {
+            InitializeComponent();
+        }
+
         public StyledPage(string id)
         {
             InitializeComponent();
 
-            var filename = "multisheets.Assets.sheet";
-            filename += id == "0" ? "1" : id == "1" ? "2" : "3";
-            filename += ".css";
+            var filename = $"mulitsheets.Assets.sheet{id}.css";
 
             Resources.Add(StyleSheet.FromAssemblyResource(IntrospectionExtensions.GetTypeInfo(typeof(StyledPage)).Assembly, filename));
+
         }
     }
 }

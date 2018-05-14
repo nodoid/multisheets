@@ -14,7 +14,7 @@ namespace mulitsheets
         void Handle_Clicked(object sender, EventArgs e)
         {
             var btn = sender as Button;
-            Task.Run(async () => await Navigation.PushAsync(new StyledPage(btn.ClassId)));
+            Device.BeginInvokeOnMainThread(async()=>await Navigation.PushAsync(new StyledPage(btn.ClassId)));
         }
     }
 }

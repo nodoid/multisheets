@@ -12,4 +12,9 @@
   <ItemGroup>
     <Folder Include="Assets\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs" />
+    <Compile Include="MainPage.xaml.cs" />
+    <Compile Include="StyledPage.xaml.cs" />
+  </ItemGroup>
 </Project>
