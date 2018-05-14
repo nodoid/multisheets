@@ -1,0 +1,9 @@
+packages/*
+mulitsheets/obj/*
+mulitsheets/bin/*
+mulitsheets.Android/bin/*
+mulitsheets.Android/obj/*
+.vs/*
+mulitsheets.iOS/bin/*
+mulitsheets.iOS/obj/*
+
