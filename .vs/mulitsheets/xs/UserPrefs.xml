@@ -1,17 +1,18 @@
 ﻿<Properties StartupConfiguration="{3CF948AF-278D-418C-B544-54BDBC72B3CE}|Default">
   <MonoDevelop.Ide.ItemProperties.mulitsheets.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6D1B9105-1ECF-4EBE-A884-25447BC81B04" FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../.nuget/packages/Xamarin.Forms/3.0.0.446417/build/netstandard2.0/Xamarin.Forms.targets">
+  <MonoDevelop.Ide.Workbench ActiveDocument="mulitsheets/Assets/EmptyCSSFile.css">
     <Files>
       <File FileName="mulitsheets/MainPage.xaml.cs" Line="11" Column="35" />
       <File FileName="mulitsheets/MainPage.xaml" Line="9" Column="15" />
       <File FileName="mulitsheets/App.xaml" Line="5" Column="15" />
       <File FileName="mulitsheets/App.xaml.cs" Line="11" Column="10" />
       <File FileName="mulitsheets/StyledPage.xaml" Line="6" Column="1" />
-      <File FileName="mulitsheets/StyledPage.xaml.cs" Line="20" Column="1" />
-      <File FileName="mulitsheets/Assets/sheet1.css" Line="2" Column="25" />
-      <File FileName="mulitsheets/Assets/sheet2.css" Line="2" Column="24" />
-      <File FileName="mulitsheets/Assets/sheet3.css" Line="2" Column="24" />
+      <File FileName="mulitsheets/StyledPage.xaml.cs" Line="21" Column="1" />
       <File FileName="../../.nuget/packages/Xamarin.Forms/3.0.0.446417/build/netstandard2.0/Xamarin.Forms.targets" Line="43" Column="3" />
+      <File FileName="../../../../usr/local/share/dotnet/sdk/2.1.4/Sdks/Microsoft.NET.Sdk/build/Microsoft.NET.Sdk.DefaultItems.targets" Line="273" Column="28" />
+      <File FileName="mulitsheets/Assets/sheet1.css" Line="3" Column="2" />
+      <File FileName="mulitsheets/Assets/sheet2.css" Line="4" Column="1" />
+      <File FileName="mulitsheets/Assets/EmptyCSSFile.css" Line="4" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.mulitsheets.Android PreferredExecutionTarget="Android.Android_Accelerated_x86" FirstBuild="True" />

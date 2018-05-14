@@ -3,21 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
-
+<PropertyGroup>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+</PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.0.0.446417" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Remove="Assets\sheet1.css" />
-    <None Remove="Assets\sheet2.css" />
-    <None Remove="Assets\sheet3.css" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Assets\sheet1.css" />
-    <EmbeddedResource Include="Assets\sheet2.css" />
-    <EmbeddedResource Include="Assets\sheet3.css" />
   </ItemGroup>
 </Project>
